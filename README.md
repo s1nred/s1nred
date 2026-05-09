@@ -37,14 +37,6 @@ My current interests sit at the intersection of:
 ![Wireshark](https://img.shields.io/badge/Wireshark-navy?style=flat-square)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
-## Featured Repositories
-| Repo | Description |
-|------|-------------|
-| [recon-notes](https://github.com/s1nred/recon-notes) | Personal reconnaissance methodology, notes, templates, and practical examples. |
-| [htb-writeups](https://github.com/s1nred/htb-writeups) | Retired Hack The Box writeups focused on reasoning, workflow, and learning value. |
-| [ad-attack-notes](https://github.com/s1nred/ad-attack-notes) | Active Directory notes, attack paths, and privilege escalation references. |
-| [siem-labs](https://github.com/s1nred/siem-labs) | Detection labs, investigation notes, and SIEM-oriented practice. |
-| [ctf-toolkit](https://github.com/s1nred/ctf-toolkit) | Small scripts and utilities built for labs, CTFs, and workflow improvement. |
 ## Learning In Public
 I use GitHub as a place to publish:
 - notes that become methodology
