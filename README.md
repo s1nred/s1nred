@@ -1,46 +1,53 @@
-# 👾 1000days | Security Researcher
-> *Offense informs defense. Defense shapes offense.*
-I document and build around practical security work across offensive and defensive domains, with a strong focus on methodology, hands-on labs, and repeatable workflows.
-Currently working through **CPTS** and **CDSA** at Hack The Box.
-## About
-I’m focused on learning security by doing:
-- building recon and pentesting notes from real practice
-- turning labs into documented workflows
-- studying both attack paths and defensive visibility
-- improving how I think, not just which tools I use
-My current interests sit at the intersection of:
-- reconnaissance and attack surface mapping
-- web application security
-- detection engineering and log analysis
-- malware analysis fundamentals
-- blue team investigation workflows
-## Current Focus
-- **CPTS**: reconnaissance, enumeration, web exploitation, Active Directory fundamentals
-- **CDSA**: SIEM analysis, threat hunting, incident response, detection logic
-- **Personal work**: notes, labs, small tooling, and public learning artifacts
-## Offensive Security
-- Reconnaissance: network, infrastructure, DNS, web, and OSINT
-- Web application testing: SQLi, XSS, SSRF, IDOR, RCE
-- CTF practice: Hack The Box / TryHackMe
-- Attack-path thinking and structured enumeration
-## Defensive Security
-- SIEM and log analysis with tools like Splunk and ELK
-- Threat hunting and incident triage
-- Malware analysis fundamentals
-- Detection engineering and YARA-based pattern matching
-## Tooling
-![Nmap](https://img.shields.io/badge/Nmap-gray?style=flat-square)
-![Burp Suite](https://img.shields.io/badge/Burp_Suite-orange?style=flat-square)
-![Metasploit](https://img.shields.io/badge/Metasploit-blue?style=flat-square)
-![BloodHound](https://img.shields.io/badge/BloodHound-red?style=flat-square)
-![Splunk](https://img.shields.io/badge/Splunk-teal?style=flat-square)
-![Wireshark](https://img.shields.io/badge/Wireshark-navy?style=flat-square)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
-## Learning In Public
-I use GitHub as a place to publish:
-- notes that become methodology
-- labs that become repeatable process
-- practice that turns into documented understanding
-## Contact
-- GitHub: [@s1nred](https://github.com/s1nred)
+# 1000days
+
+**Offensive security · Defensive analysis · Linux tooling**
+
+> Offense informs defense. Defense shapes offense.
+
+I learn security by building, breaking, investigating, and documenting things in controlled environments. This space is a record of practical work: small tools, lab infrastructure, and methods I can explain and reproduce.
+
+## Work
+
+### [lab-qemu](https://github.com/s1nred/lab-qemu)
+A Bash CLI for managing local KVM/QEMU virtual machines through `virsh`. Includes VM lifecycle commands and snapshot operations for hands-on lab environments.
+
+**Built with:** Bash · Linux · libvirt / KVM
+
+More projects will appear here as they become documented and reproducible.
+
+## Current focus
+
+| Track | What I'm practicing |
+| --- | --- |
+| **HTB Academy — CPTS** | Enumeration, web application testing, privilege escalation, and Active Directory fundamentals |
+| **HTB Academy — CDSA** | Log analysis, incident triage, detection logic, and investigation workflows |
+| **Independent work** | Linux lab infrastructure, Bash/Python automation, and technical write-ups |
+
+*These are learning paths in progress, not certifications held.*
+
+## Areas of interest
+
+- **Offensive:** attack-surface mapping, structured enumeration, web security, and attack-path analysis.
+- **Defensive:** SIEM workflows, threat hunting, incident investigation, and detection engineering.
+- **Engineering:** Linux systems, virtualization, automation, and maintainable command-line tools.
+
+## Tools I work with
+
+`Linux` · `Bash` · `Python` · `Nmap` · `Burp Suite` · `Wireshark` · `Metasploit` · `BloodHound` · `Splunk`
+
+Tools are part of the workflow, not a substitute for understanding the underlying technique.
+
+## How I document
+
+I aim to make each public project useful to someone who wasn't there when it was built:
+
+1. Explain the problem and the environment.
+2. Record the method, decisions, and limitations.
+3. Provide reproducible steps or examples where possible.
+4. Separate observed results from assumptions.
+
+Security exercises are performed in authorized environments. Public notes avoid sensitive information and restricted lab solutions.
+
+---
+
+**GitHub:** [@s1nred](https://github.com/s1nred) · **Focus:** learn deeply, build deliberately, document clearly.
